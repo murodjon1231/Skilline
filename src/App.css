@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@media (width:  340px) {
+  .hero1 {
+    display: none;
+  }
+}
