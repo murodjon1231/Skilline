@@ -1,5 +1,6 @@
 import React from 'react'
-
+import Btn1 from './btn/btn'
+import Btn2 from './btn/btn2'
 const Header = () => {
     return (
         <>
@@ -21,8 +22,8 @@ const Header = () => {
                 </nav>
 
                 <div className="flex items-center space-x-3">
-                    <button className="px-6 py-2 text-gray-700 bg-white rounded-full shadow-sm hover:bg-gray-100">Login</button>
-                    <button className="px-6 py-2 text-white bg-orange-500 rounded-full hover:bg-orange-600">Sign Up</button>
+                    <Btn1/>
+                    <Btn2/>
                 </div>
             </header>
         </>
